@@ -1,0 +1,118 @@
+Keypad Layout:
+┌─────┬─────┬─────┬─────┐
+│  1  │  2  │  3  │  A  │
+├─────┼─────┼─────┼─────┤
+│  4  │  5  │  6  │  B  │
+├─────┼─────┼─────┼─────┤
+│  7  │  8  │  9  │  C  │
+├─────┼─────┼─────┼─────┤
+│  *  │  0  │  #  │  D  │
+└─────┴─────┴─────┴─────┘
+
+
+Main Menu
+When the clock is running normally, the LCD shows:
+Line 1:  1:Time 2:Alm1
+Line 2:  3:Alm2 4:Alm3
+
+After a few seconds it switches to the time display:
+Line 1:  Time: HH:MM:SS
+Line 2:  A:---
+(--- means no alarms set. 1, 2, 3 appear when alarms are enabled.)
+
+
+
+How to Set Current Time
+Press 1 from the main menu display.
+LCD shows:  --- Set Time --
+            Hour(00-23):
+
+Type the hour as two digits. Example: for 9 AM press 0 then 9. For 2 PM press 1 then 4.
+
+LCD shows:  --- Set Time --
+            Min (00-59):
+
+Type the minute as two digits. Example: for 30 minutes press 3 then 0.
+Seconds reset to 00 automatically.
+LCD confirms: Time Set OK!
+
+
+
+How to Set an Alarm
+Press 2 for Alarm 1, 3 for Alarm 2, 4 for Alarm 3.
+LCD shows:  Set Alarm #1
+            Hour(00-23):
+
+Type hour as two digits (same as setting time).
+
+LCD shows:  Set Alarm #1
+            Min (00-59):
+
+Type minute as two digits.
+LCD confirms: Alarm 1 Set OK!
+The time display will now show A:1-- meaning Alarm 1 is armed.
+
+
+
+When the Alarm Fires
+The buzzer beeps and LED1 flashes in sync. LCD shows:
+Line 1:  !! ALARM 1
+Line 2:  1>2>1 A=Snz D=X
+
+You have 3 options:
+
+Option 1 — Snooze (press A)
+
+Press A to snooze.
+LCD asks:
+             Snooze Duration
+             Mins(01-59):
+
+Type snooze duration as two digits. Example: 5 minutes → press 0 then 5.
+Alarm silences. LCD shows Snoozed!
+Alarm will automatically reactivate after the snooze duration.
+
+
+Option 2 — Permanent Stop (press D)
+
+Press D to immediately and permanently stop the alarm.
+LCD shows: Alarm Stopped!
+Alarm is fully disabled. It will not ring again unless you set it again with key 2, 3, or 4.
+
+
+Option 3 — Button Sequence Stop (press 1 → 2 → 1)
+This is your Extra Feature 2 — the smart stop that prevents accidental dismissal.
+
+Press 1, then 2, then 1 in sequence.
+If the sequence is correct, LCD shows:
+
+Alarm Stopped!
+Seq Correct :)
+
+If you press a wrong key the sequence resets and you must start again from 1.
+
+
+Quick Reference Card
+
+Key	Action
+1	Set current time
+2	Set Alarm 1
+3	Set Alarm 2
+4	Set Alarm 3
+A	Snooze (during alarm) — then enter duration
+D	Force stop alarm permanently
+1→2→1	Smart sequence stop (Extra Feature 2)
+0–9	Enter digits for time/alarm/snooze input
+
+
+
+Example: Full Walkthrough
+Goal: Set time to 08:30, set Alarm 1 for 08:31, then stop it with sequence.
+
+Press 1 → type 0,8 (hour) → type 3,0 (min) → time is now 08:30:00
+Press 2 → type 0,8 (hour) → type 3,1 (min) → Alarm 1 set for 08:31
+Wait ~1 minute → alarm fires, buzzer beeps, LED flashes
+Press 1 → 2 → 1 → alarm stops with Seq Correct :)
+
+
+
